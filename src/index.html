@@ -1,0 +1,50 @@
+{% set title = "Website is under construction" %}
+
+{% set description = "New version is coming soon. Please stay tuned!" %}
+
+{% set preloadImage = [
+	{
+		media: "(min-width: 768px)",
+		img : "/img/bg.webp"
+	},
+	{
+		media: "(max-width: 767px)",
+		img : "/img/bg--mobile.webp"
+	}
+] %}
+
+{% extends "template/base.html" %}
+
+{% block content %}
+
+	<article class="landing">
+
+		<div class="center">
+
+			<div class="logo">
+
+				<img src="/img/logo" width="218" height="40" alt="{{ site }}">
+
+			</div>
+
+			<h1 class="landing__title">
+				{{ title }}
+			</h1>
+
+			<p>
+				{{ description }}
+			</p>
+
+			<div class="landing__btn">
+
+				<a href="/" class="btn btn--yellow">
+					Contact us
+				</a>
+
+			</div>
+
+		</div>
+
+	</article>
+
+{% endblock %}
