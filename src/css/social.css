@@ -1,7 +1,7 @@
 .social {
 
 	display: flex;
-	margin: -12px;
+	margin: -12px 0;
 	justify-content: center;
 
 	&__item {
