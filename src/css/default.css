@@ -3,7 +3,7 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-/* color: red !important; */
+
 }
 
 html {
@@ -38,8 +38,6 @@ body {
 	position: relative;
 	-webkit-font-smoothing: antialiased;
 
-/* background-image: url(/css/1.png); */
-background-position: center 0px;
 }
 
 a {
@@ -88,21 +86,6 @@ svg {
 
 }
 
-table {
-
-	border: 0;
-	border-collapse: collapse;
-
-}
-
-hr {
-
-	height: 1px;
-	border: 0;
-	background-color: color(var(--text) a(20%));
-
-}
-
 /*
 -----------------------------------------------------------------------------*/
 .notsel {
@@ -110,52 +93,6 @@ hr {
 	user-select: none;
 
 }
-
-.h1 {
-
-	font-size: 60px;
-	line-height: 80px;
-	font-weight: 700;
-
-	@media ($mdWidth) {
-
-		font-size: 36px;
-		line-height: 48px;
-
-	}
-
-}
-
-.h2 {
-
-	font-size: 48px;
-	line-height: 60px;
-	font-weight: 700;
-
-	@media ($mdWidth) {
-
-		font-size: 36px;
-		line-height: 48px;
-
-	}
-
-}
-
-.h3 {
-
-	font-size: 30px;
-	line-height: 40px;
-	font-weight: 500;
-
-}
-
-.h4 {
-
-	font-size: 24px;
-	font-weight: 700;
-
-}
-
 
 main,
 header,
@@ -213,15 +150,5 @@ a[href^="tel"],
 .white-space-nowrap {
 
 	white-space: nowrap;
-
-}
-
-.text-ellipsis {
-
-	display: block;
-	overflow: hidden;
-	white-space: nowrap;
-	text-overflow: ellipsis;
-	max-width: 100%;
 
 }
